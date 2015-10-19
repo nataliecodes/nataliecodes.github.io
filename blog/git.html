@@ -1,38 +1,56 @@
 <!DOCTYPE html>
-<head>
-  <title>Your page title here</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
-</head>
 
-<main>
-  <h1>My First Post</h1>
-  <h2>My first blog post as a Dev Bootcamp student</h2>
-  <h4>October 5, 2015</h4>
+<html>
 
-  <section>
-    <p>
-      If you're confused about git, Github and version control, don't worry: I'm hoping to help explain it to you in this blog post.
-    </p>
+  <head>
+    <title>Blog Post</title>
+    <link rel="stylesheet" type = "text/css" href="../stylesheets/default.css"/>
+    <link rel="stylesheet" type = "text/css" href="../stylesheets/blog.css">
+  </head>
 
-    <p>
-      I only started my Dev Bootcamp program a week ago, so I've only been coding for a week. Be that as it may, I have already learned cool things about the world of "coding."
-    </p>
+  <body>
 
-    <p>
-      The first major concepts we covered have to do with the aforementioned git and GitHub. I used to think they were the same thing; they're not! Git is a version control system that allows you to track the history of your files. GitHub is a website that allows you to collaborate on projects (that use git). So: GitHub is a website that was created in order to allow programmers -- who use git -- to share and edit their code with others.
-    </p>
-    <p>
-      It makes a lot of sense for programmers to use version control. Git is just one type of version control -- just like how Kleenex is actually just one brand of tissue. Version control, more generally, is vital for programmers who want to edit a file simultaneously. By using GitHub, an entire team can submit their changes to a file in an organized way.
-    </p>
+    <section class="my-photo-img">
+      <img src="../imgs/my-photo.jpg" alt="Photo of me">
+    </section>
 
-    <p>
-      Version control is key to good programming. Not only does it allow for tracking of code, it also allows for easier collaboration on projects.
-    </p>
+     <nav>
+      <h1 class="nav"><a class="nav-background" href="http://nataliecodes.github.io/">home</a></h1>
+      <h1 class="nav"><a class="nav-background" href="#">about me</a></h1>
+      <h1 class="nav"><a class="nav-background" href="#">projects</a></h1>
+      <h1 class="nav"><a class="nav-background" href="http://nataliecodes.github.io/blog/index.html">blog</a></h1>
+      <h1 class="nav"><a class="nav-background" href="#">social</a></h1>
+      <h1 class="nav"><a class="nav-background"href="#">contact</a></h1>
+     </nav>
 
-    <p>
-      Thanks for reading my first post! It's weird to think that when I look back on this post in a few weeks, I will have learned so much more.
-    </p>
+    <div id="div-for-nav"></div>
 
-  </section>
-</main>
+    <div id="div-for-posts">
+      <h1 class="normal-text">My First Post</h1>
+
+      <h2 class="normal-text">My first blog post as a Dev Bootcamp student<h2>
+
+      <h2 class="normal-text">October 5, 2015</h2>
+
+      <p class="normal-text">If you're confused about git, Github and version control, don't worry: I'm hoping to help explain it to you in this blog post.</p>
+
+      <p class="normal-text">I only started my Dev Bootcamp program a week ago, so I've only been coding for a week. Be that as it may, I have already learned cool things about the world of "coding."</p>
+
+      <p class="normal-text">The first major concepts we covered have to do with the aforementioned git and GitHub. I used to think they were the same thing; they're not! Git is a version control system that allows you to track the history of your files. GitHub is a website that allows you to collaborate on projects (that use git). So: GitHub is a website that was created in order to allow programmers -- who use git -- to share and edit their code with others.</p>
+
+      <p class="normal-text">It makes a lot of sense for programmers to use version control. Git is just one type of version control -- just like how Kleenex is actually just one brand of tissue. Version control, more generally, is vital for programmers who want to edit a file simultaneously. By using GitHub, an entire team can submit their changes to a file in an organized way.</p>
+
+      <p class="normal-text">Version control is key to good programming. Not only does it allow for tracking of code, it also allows for easier collaboration on projects.</p>
+
+      <p class="normal-text">Thanks for reading my first post! It's weird to think that when I look back on this post in a few weeks, I will have learned so much more.</p>
+      </div>
+
+  <div id="div-for-features">
+    <footer class="footer-section f-xs no-padding">
+      <h4 class="no-margin footer-text">Natalie Polen's website &copy; 2015</h4>
+    </footer>
+  </div>
+
+  </body>
+
+</html>
