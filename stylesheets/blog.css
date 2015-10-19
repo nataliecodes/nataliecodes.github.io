@@ -42,6 +42,10 @@ a:hover { color: white; }
   width: 100%;
 }
 
+.img img {
+  width: 100%;
+}
+
 .bottom-feature-left {
   display: inline-block;
   position: relative;
