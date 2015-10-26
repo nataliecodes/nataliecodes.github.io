@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Arrays and Hashes</title>
+    <link rel="stylesheet" type = "text/css" href="stylesheets/default.css"/>
+    <link rel="stylesheet" type = "text/css" href="../stylesheets/blog.css">
+  </head>
+
+  <body>
+
+    <section class="my-photo-img">
+      <img src="../imgs/my-photo.jpg" alt="Photo of me">
+    </section>
+
+     <nav>
+      <h1 class="nav"><a class="nav-background" href="http://nataliecodes.github.io/">home</a></h1>
+      <h1 class="nav"><a class="nav-background" href="#">about me</a></h1>
+      <h1 class="nav"><a class="nav-background" href="#">projects</a></h1>
+      <h1 class="nav"><a class="nav-background" href="http://nataliecodes.github.io/blog/index.html">blog</a></h1>
+      <h1 class="nav"><a class="nav-background" href="#">social</a></h1>
+      <h1 class="nav"><a class="nav-background"href="#">contact</a></h1>
+     </nav>
+
+    <div id="div-for-nav"></div>
+
+    <div id="div-for-posts">
+      <h1 class="normal-text">Arrays and Hashes</h1>
+
+      <h2 class="normal-text">What they are and when to use them<h2>
+
+      <h2 class="normal-text">October 25, 2015</h2>
+
+      <p class="normal-text">Ruby uses arrays and hashes as ways to store other information. Arrays and hashes are called "containers," which helps make sense of them to those without technical knowledge; simply put, an array or hash contains other information.</p>
+
+      <p class="normal-text">Arrays are ordered containers of objects. Objects can be anything - text, numbers, another array or hash. They can look like the below.</p>
+
+      <code>
+        <p class="normal-text">My_array1 = ["this", "is", "my", "array"]</p>
+        <p class="normal-text">My_array2 = [100, 5, 101, 4444]</p>
+        <p class="normal-text">My_array3 = [ [5, -3, 0], "this", 33 ]</p>
+      </code>
+
+      <p class="normal-text">Hashes, on the other hand, generally look more like this:</p>
+
+      <code>
+        <p class="normal-text">my_hash = {</p>
+        <p class="normal-text">:name => "Natalie",</p>
+        <p class="normal-text">:date => "Today",</p>
+        <p class="normal-text">:age => 30,</p>
+        <p class="normal-text">:array => [1, 55, -4]</p>
+        <p class="normal-text">}</p>
+      </code>
+
+      <p class="normal-text">As you can see, a hash stores two pieces of information that relate to each other: keys and values. <code>:name</code> is a key and its value is <code>"Natalie"</code>. In the array, the <code>key</code> is the implicit. For example, in <code>My_array1</code> above, the key for "this" is 0 (the number associated with the first position in an array), the key for "is" is 1, the key for "my" is 2, and the key for "array" is 3.</p>
+
+      <p class="normal-text">So, if you want to associate a value with a specific key (i.e. associate a specific password with a username or a date with an event), you will want to use a hash. If that information doesn't matter, you can use an array. And if you want to easily retrieve the data based on order, an array ususally makes more sense - you can ask it for the first nth terms and know what you're going to get.
+      </p>
+
+      <p class="normal-text">Hashes are better used when you don't want to have only a number as the indication for a value. Hashes are better when you want to associate information with other information that you already know.
+      </p>
+
+    </div>
+
+  <div id="div-for-features">
+    <footer class="footer-section f-xs no-padding">
+      <h4 class="no-margin footer-text">Natalie Polen's website &copy; 2015</h4>
+    </footer>
+  </div>
+
+  </body>
+
+</html>
