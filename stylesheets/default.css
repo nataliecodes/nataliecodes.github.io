@@ -23,9 +23,11 @@ a:hover {
 
 .highlight-padding { padding: 0.2em; }
 
-#div-for-nav {
-  height: 1.1em;
-}
+.title-top-padding { padding-top: 0.2em; }
+
+.right-text-margin { margin-right: 45%; }
+
+#div-for-nav { height: 1.1em; }
 
 .my-photo-img img {
   height: 2.8em;
@@ -70,6 +72,8 @@ a:hover {
   text-align: center;
 }
 
+.normal-text { color: #e5886d; }
+
 .no-margin { margin: none; }
 
 .f-xs { font-size: 0.75em; }
@@ -77,3 +81,5 @@ a:hover {
 .page-title { color: #e5886d; }
 
 .centered-text { text-align: center; }
+
+.left-aligned-text { margin-left: 5%; }
