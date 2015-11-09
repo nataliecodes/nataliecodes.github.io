@@ -27,6 +27,8 @@ a:hover {
 
 .title-top-padding { padding-top: 0.2em; }
 
+.right-text-margin { margin-right: 45%; }
+
 #div-for-nav { height: 1.1em; }
 
 .my-photo-img img {
@@ -41,7 +43,7 @@ a:hover {
   width: 100%;
 }
 
-.img img { width: 100%; }
+.img img { width: 60%; }
 
 .bottom-feature-left {
   display: inline-block;
