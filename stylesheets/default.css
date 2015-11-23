@@ -62,6 +62,22 @@ a:hover {
   position: relative;
 }
 
+#div-left-column {
+/*  padding: 1%;*/
+  float: left;
+  width: 40%;
+  display: inline-block;
+  margin-left: 5%;
+}
+
+#div-right-column{
+  /*padding: 1%;*/
+  float: right;
+  width: 40%;
+  display: inline-block;
+  margin-right: 15%;
+}
+
 .footer-section {
   margin: 0;
   padding: 0;
@@ -73,13 +89,13 @@ a:hover {
 }
 
 .normal-text { color: #e5886d; }
+.f-xs { font-size: 0.75em; }
 
 .no-margin { margin: none; }
-
-.f-xs { font-size: 0.75em; }
 
 .page-title { color: #e5886d; }
 
 .centered-text { text-align: center; }
-
 .left-aligned-text { margin-left: 5%; }
+
+.code-indentation { text-indent: 5em; }

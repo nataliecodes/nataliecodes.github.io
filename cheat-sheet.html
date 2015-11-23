@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Natalie Polen's Website</title>
+    <link rel="stylesheet" type ="text/css" href="stylesheets/default.css"/>
+  </head>
+
+  <body>
+
+    <section class="my-photo-img">
+      <img src="imgs/my-photo.jpg" alt="Photo of me">
+    </section>
+
+     <nav>
+      <h1 class="nav"><a class="highlight-padding" href="http://nataliecodes.github.io/">home</a></h1>
+      <h1 class="nav"><a class="highlight-padding" href="http://nataliecodes.github.io/about.html">about me</a></h1>
+      <h1 class="nav"><a class="highlight-padding" href="nataliecodes.github.io/projects/index.html">projects</a></h1>
+      <h1 class="nav"><a class="highlight-padding" href="http://nataliecodes.github.io/blog/index.html">blog</a></h1>
+      <h1 class="nav"><a class="highlight-padding" href="#">social</a></h1>
+      <h1 class="nav"><a class="highlight-padding" href="http://nataliecodes.github.io/contact.html">contact</a></h1>
+     </nav>
+
+    <div id="div-for-nav"></div>
+
+    <h1 class="page-title left-aligned-text">A Comparison of Looping in Ruby and JavaScript</h1>
+
+    <p class="normal-text left-aligned-text right-text-margin">This cheat sheet is meant to compare and contrast looping in Ruby and JavaScript. First, remember the definition of looping or iteration. Looping means that a certain instruction is done over and over until a different condition is met.</p>
+
+    <p class="normal-text left-aligned-text right-text-margin">Both languages have many ways to accomplish a loop. In the chart below, you will see that Ruby looks "cleaner" because JavaScript has more text and lines of code. This is because Ruby is more implicit, meaning it can better understand your intention. JavaScript makes you spell everything out more clearly.</p>
+
+    <div id="div-left-column">
+      <p class="normal-text left-aligned-text">JavaScript</p>
+      <p class="normal-text left-aligned-text"><code>for (var i = 1; i < 11; i++) { </br>
+      console.log(i*2);</br>
+      }</code></p>
+      <p class="normal-text left-aligned-text">The for loop has three parameters:</p>
+
+      <ul>
+        <li class="normal-text left-aligned-text"><code>var i = 1</code> = The state of the variable. Variable i is set equal to one.</li>
+        <li class="normal-text left-aligned-text"><code>i < 11</code> = The conditions under which we want to loop. Loop through i until it's less than 11. Since we declare i as 1, the final iteration of i will be an integer -- 10.</li>
+        <li class="normal-text left-aligned-text"><code>i++</code> = What to do after the loop is iterated once.</li>
+      </ul>
+
+      <p class="normal-text left-aligned-text"><code>var i = 0;</br>
+      while (i <= 5) {</br>
+      console.log("A line of code.");</br>
+      i += 1</br>
+      }</code></p>
+
+      <ul>
+        <li class="normal-text left-aligned-text">JavaScript also has "while" loops. This example sets a variable i outside of the method.</li>
+        <li class="normal-text left-aligned-text">The condition is on the next line; while i is less than 5, print the code.</li>
+        <li class="normal-text left-aligned-text">The counter is then below, and the loop ends after the line is printed 6 times.</li>
+      </ul>
+
+    </div>
+
+    <div id="div-right-column">
+      <p class="normal-text left-aligned-text">Ruby</p>
+
+      <p class="normal-text left-aligned-text"><code>10.times do |n|</br>
+      puts i*2</br>
+      end</code></p>
+      <p class="normal-text left-aligned-text">Less has to be declared in Ruby.</p>
+
+      <ul>
+        <li class="normal-text left-aligned-text">We don't have to set a variable here. We just say "do this 10 times."</li>
+        <li class="normal-text left-aligned-text">There is no end condition necessary here. But, if you write the loop another way, you could have a more direct translation from JavaScript.</li>
+        <li class="normal-text left-aligned-text">There is no iterator increase or change here, because we've declared it already.</li>
+      </ul>
+
+      <p class="normal-text left-aligned-text"><code>i = 0</br>
+      while i <= 5</br>
+      p "A line of code."</br>
+      i += 1</br>
+      end</code></p>
+
+      <ul>
+        <li class="normal-text left-aligned-text">This Ruby code looks very similar to the JavaScript on the left.</li>
+        <li class="normal-text left-aligned-text">This is a way to show that they two languages are similar.</li>
+        <li class="normal-text left-aligned-text">The only real differences are: Ruby has less punctuation and printing is a different command.</li>
+
+      </ul>
+
+    </div>
+
+    <p class="normal-text left-aligned-text right-text-margin">In the simplest terms, JavaScript requires more upfront information. Also, Ruby is more flexible because you can loop in may different ways. While there are a couple of different ways to use the for loop in JavaScript, Ruby offers more functionality.</p>
+
+    <h2 class="normal-text left-aligned-text">Helpful Links</h2>
+
+    <p class="normal-text left-aligned-text right-text-margin">One of the critiques I have about DBC's phase 0 is that there is no list of links for each week. The best thing I can do on a cheat sheet is come up with a list of the most helpful links.</p>
+
+    <ul>
+      <li class="normal-text left-aligned-text right-text-margin">
+        <a href="http://ruby-doc.org/core-2.2.2/Enumerator.html">Ruby Enumerator Docs</a> -- This is a link to the Ruby documentation on the Enumerator class.
+      </li>
+      <li class="normal-text left-aligned-text right-text-margin">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration">JavaScript MDN on Loops and Iteration</a> -- This is a link to the JavaScript documentation on looping.
+      </li>
+      <li class="normal-text left-aligned-text right-text-margin">
+        <a href="http://www.tutorialspoint.com/ruby/ruby_loops.htm">Tutorials Point on Looping</a> -- Tutorials Point has tons of great information on all things coding; this is just the Ruby looping section.
+      </li>
+      <li class="normal-text left-aligned-text right-text-margin">
+        <a href="http://learnrubythehardway.org/book/ex33.html">Learn Ruby the Hard Way loops</a> -- To do some actual exercises on Ruby looping, try Learn Ruby the Hard Way. It's simple, but they highlight the keys.
+      </li>
+      <li class="normal-text left-aligned-text right-text-margin">
+        <a href="http://www.tutorialspoint.com/javascript/javascript_while_loop.htm">Tutorials Point JavaScript - While Loop,</a>
+        <a href="http://www.tutorialspoint.com/javascript/javascript_for_loop.htm">Tutorials Point JavaScript - For Loop,</a>
+        <a href="http://www.tutorialspoint.com/javascript/javascript_forin_loop.htm">Tutorials Point - For...in</a>
+        -- These are links to the Tutorials Point pages on JavaScript looping.
+      </li>
+      <li><a href="http://webcheatsheet.com/javascript/loops.php">Web cheatsheet on JavaScript</a> -- Here's another cheatsheet on JavaScript looping. More basics to look into.
+      </li>
+    </ul>
+
+    <p class="normal-text left-aligned-text right-text-margin">I hope you find this cheatsheet helpful! Although I know there are many other resources out there, I wanted to include the official documentation because it tends to be the most complete. Happy coding!</p>
+
+  </body>
+
+</html>
+
