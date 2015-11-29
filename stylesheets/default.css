@@ -1,24 +1,22 @@
 html {
   font-family: sans-serif;
-  background-color: #f5f6f7;
 }
 
 a:link {
-  color: #e5886d;
+  color: #323232;
   text-decoration: none;
 }
 
-a:visited { color: #e5886d; }
-
 a:hover {
   color: white;
-  background-color: #d2d2d2;
+  background-color: #323232;
 }
 
 .nav {
   display: inline;
   margin: auto 0.3em;
   font-size: 1.5em;
+  padding-left: 1em;
 }
 
 .highlight-padding { padding: 0.2em; }
@@ -39,23 +37,7 @@ a:hover {
 .background-img img {
   position: relative;
   width: 100%;
-  max-width: 60em;
-}
-
-.bottom-feature-left {
-  display: inline-block;
-  position: relative;
-  left: 15%;
-  background-color: #d2d2d2;
-  padding: 2em;
-}
-
-.bottom-feature-right {
-  display: inline-block;
-  position: relative;
-  left: 35%;
-  background-color: #d2d2d2;
-  padding: 2em;
+  max-width: 44em;
 }
 
 #div-for-features {
@@ -89,14 +71,30 @@ a:hover {
   text-align: center;
 }
 
-.normal-text { color: #e5886d; }
+.normal-text { color: #323232; }
 .f-xs { font-size: 0.75em; }
 
 .no-margin { margin: none; }
 
-.page-title { color: #e5886d; }
+.page-title { color: #323232; }
 
 .centered-text { text-align: center; }
 .left-aligned-text { margin-left: 5%; }
 
 .code-indentation { text-indent: 5em; }
+
+/*.bottom-feature-left {
+  display: inline-block;
+  position: relative;
+  left: 15%;
+  background-color: #d2d2d2;
+  padding: 2em;
+}
+
+.bottom-feature-right {
+  display: inline-block;
+  position: relative;
+  left: 35%;
+  background-color: #d2d2d2;
+  padding: 2em;
+}*/

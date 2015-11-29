@@ -1,26 +1,26 @@
 html {
   font-family: sans-serif;
-  background-color: #f5f6f7;
 }
 
 a:link {
-  color: #e5886d;
+  color: #323232;
   text-decoration: none;
 }
 
-a:visited { color: #e5886d; }
+a:visited { color: #323232; }
 
 a:hover {
   color: white;
   background-color: #d2d2d2;
 }
 
-.normal-text { color: #e5886d; }
+.normal-text { color: #323232; }
 
 .nav {
   display: inline;
   margin: auto 0.3em;
   font-size: 1.5em;
+  padding-left: 1em;
 }
 
 .highlight-padding { padding: 0.2em; }
@@ -66,10 +66,15 @@ a:hover {
   position: relative;
 }
 
-#div-for-posts {
+.sub-post {
   margin-left: 5%;
   margin-right: 15%;
   border-bottom: 1px solid #d2d2d2;
+}
+
+.post-title {
+  margin-left: 5%;
+  margin-right: 15%;
 }
 
 .footer-section {
@@ -86,7 +91,10 @@ a:hover {
 
 .f-xs { font-size: 0.75em; }
 .f-normal { font-size: 1em; }
+.f-post-title { font-size: 1.5em; }
 
-.page-title { color: #e5886d; }
+.f-no-bold { font-weight: normal; }
+
+.page-title { color: #323232; }
 
 .centered-text { text-align: center; }
