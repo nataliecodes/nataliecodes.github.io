@@ -39,6 +39,7 @@ a:hover {
 .background-img img {
   position: relative;
   width: 100%;
+  max-width: 60em;
 }
 
 .bottom-feature-left {
