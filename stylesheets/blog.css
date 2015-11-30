@@ -9,18 +9,19 @@ a:link {
 
 a:visited { color: #323232; }
 
-a:hover {
-  color: white;
-  background-color: #d2d2d2;
-}
+a:hover { text-decoration: underline; }
 
-.normal-text { color: #323232; }
+.normal-text {
+  color: #323232;
+  font-size: .9em;
+}
 
 .nav {
   display: inline;
   margin: auto 0.3em;
   font-size: 1.5em;
-  padding-left: 1em;
+  padding-left: 2em;
+  font-weight: normal;
 }
 
 .highlight-padding { padding: 0.2em; }
@@ -38,14 +39,14 @@ a:hover {
   padding-left: 5%;
 }
 
-.background-img img {
+.skyline-img img {
   position: relative;
   width: 100%;
 }
 
 .img img { width: 60%; }
 
-.bottom-feature-left {
+/*.bottom-feature-left {
   display: inline-block;
   position: relative;
   left: 15%;
@@ -59,7 +60,7 @@ a:hover {
   left: 35%;
   background-color: #d2d2d2;
   padding: 2em;
-}
+}*/
 
 #div-for-features {
   padding: none;
@@ -84,7 +85,7 @@ a:hover {
 
 .footer-text {
   color: #b2b2b2;
-  text-align: center;
+  margin-left: 5%;
 }
 
 .no-margin { margin: none; }

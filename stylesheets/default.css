@@ -7,16 +7,16 @@ a:link {
   text-decoration: none;
 }
 
-a:hover {
-  color: white;
-  background-color: #323232;
-}
+a:visited { color: #323232; }
+
+a:hover { text-decoration: underline; }
 
 .nav {
   display: inline;
   margin: auto 0.3em;
   font-size: 1.5em;
-  padding-left: 1em;
+  padding-left: 2em;
+  font-weight: normal;
 }
 
 .highlight-padding { padding: 0.2em; }
@@ -34,9 +34,10 @@ a:hover {
   padding-left: 5%;
 }
 
-.background-img img {
+.skyline-img img {
   position: relative;
-  width: 100%;
+  margin-left: 5%;
+  width: 75%;
   max-width: 44em;
 }
 
@@ -68,15 +69,22 @@ a:hover {
 
 .footer-text {
   color: #b2b2b2;
-  text-align: center;
+  margin-left: 5%;
 }
 
-.normal-text { color: #323232; }
+.normal-text {
+  color: #323232;
+  font-size: .9em;
+}
+
 .f-xs { font-size: 0.75em; }
 
 .no-margin { margin: none; }
 
-.page-title { color: #323232; }
+.page-title {
+  color: #323232;
+  font-size: 1.5em;
+}
 
 .centered-text { text-align: center; }
 .left-aligned-text { margin-left: 5%; }
