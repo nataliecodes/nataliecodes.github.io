@@ -1,6 +1,4 @@
-html {
-  font-family: sans-serif;
-}
+html { font-family: 'Roboto', sans-serif; }
 
 a:link {
   color: #323232;
@@ -91,18 +89,20 @@ a:hover { text-decoration: underline; }
 
 .code-indentation { text-indent: 5em; }
 
-/*.bottom-feature-left {
-  display: inline-block;
-  position: relative;
-  left: 15%;
-  background-color: #d2d2d2;
-  padding: 2em;
+.img img { width: 60%; }
+
+.sub-post {
+  margin-left: 5%;
+  margin-right: 15%;
+  border-bottom: 1px solid #d2d2d2;
 }
 
-.bottom-feature-right {
-  display: inline-block;
-  position: relative;
-  left: 35%;
-  background-color: #d2d2d2;
-  padding: 2em;
-}*/
+.post-title {
+  margin-left: 5%;
+  margin-right: 15%;
+}
+
+.f-normal { font-size: 1em; }
+.f-post-title { font-size: 1.5em; }
+
+.f-no-bold { font-weight: normal; }
