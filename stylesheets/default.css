@@ -108,21 +108,3 @@ a:hover { text-decoration: underline; }
 .f-post-title { font-size: 1.5em; }
 
 .f-no-bold { font-weight: normal; }
-
-
-
-/*.bottom-feature-left {
-  display: inline-block;
-  position: relative;
-  left: 15%;
-  background-color: #d2d2d2;
-  padding: 2em;
-}
-
-.bottom-feature-right {
-  display: inline-block;
-  position: relative;
-  left: 35%;
-  background-color: #d2d2d2;
-  padding: 2em;
-}*/
