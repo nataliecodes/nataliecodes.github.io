@@ -23,6 +23,10 @@ a:hover { text-decoration: underline; }
 
 #div-for-nav { height: 1.1em; }
 
+.div-for-posts {
+  font-weight: normal;
+}
+
 .my-photo-img img {
   height: 2.8em;
   width: 2.8em;
